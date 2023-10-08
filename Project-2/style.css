@@ -1,0 +1,337 @@
+/*Nav Bar*/
+#top_nav{
+   background-color: #daac00; 
+   padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#Searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 60px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#Searchbox::placeholder{
+    color: white;
+}
+#Searchbtn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+}
+
+/*Banner*/
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 20px;
+}
+#bannertxt h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+#bannertxt p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner-btn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#banner-btn2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+    background-color: #fcc302;
+}
+/*Services*/
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn1{
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+    padding-top: 7%;
+}
+/*counter section*/
+#counter-section{
+    background-image: url("/Images/img/counter.png");
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-position: center;
+    background-size: cover;
+}
+.counter-icon{
+    font-size: 70px;
+}
+/*Blog*/
+#blog{
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+#blog-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.article1{
+    padding: 15px;
+    border: 1px solid rgb(185 185 185);
+    border-top: 0;
+}
+.title-1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.date-2, .rm1{
+    color: #00bec9;
+}
+/*footer*/
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+#f1{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    left: 10px;
+}
+#submit{
+    background-color: #00bec9;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 40px;
+}
+.si{
+    font-size: 25px;
+    padding-left: 25px;
+}
+/*Responsiveness*/
+@media only screen and (min-width:0px) and (max-width: 540px){
+    #Searchbox{
+        width: 170px;
+        left: 18px;
+    }
+    #Searchbtn{
+        left: 9px;
+    }
+    .form-inline{
+        display: flex;
+        flex-flow: nowrap;
+    }
+    #bannertxt h1 {
+        font-size: 34px;
+    }
+    #banner{
+        padding-bottom: 30px;
+    }
+    #bannerimg img{
+        padding-top: 25px;
+    }
+    #service-text h1{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    #service-text p{
+        padding-bottom: 10px;
+    }   
+    #searchbox{
+        max-width: 194px;
+    } 
+}
+
+@media only screen and (min-width:541px) and (max-width: 768px){
+    #searchform{
+     margin-bottom: 30px;
+     margin-top: 20px; 
+     position: relative;
+     left: -42px;
+    } 
+    #Searchbox{
+     width: 608px;
+    }
+    #Searchbtn{
+     left: 9px;
+     }
+    .form-inline{
+     display: flex;
+     flex-flow: nowrap;
+     }
+    #bannertxt h1 {
+        font-size: 40px;
+    }
+    #banner{
+        padding-bottom: 90px;
+    }
+    #bannerimg img{
+        padding-top: 85px;
+    }
+    #service-text h1{
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+    #service-text p{
+        padding-bottom: 10px;
+    }
+    #service-img{
+        margin-top: 40px;
+    }
+    #counter-section h3{
+        font-size: 1.2rem;
+    }
+    .title-1{
+        font-size: 13px;
+        padding-bottom: 5px;        
+    }
+    .date-2{
+        font-size: 15px;
+    }
+    #searchbox{
+        max-width: 160px;
+    }
+    #submit{
+        padding: 15px 20px;
+    }
+    .p1{
+        font-size: 12px;
+    }
+ }
+
+ @media only screen and (min-width:769px) and (max-width: 1000px){
+    #Searchbox{
+        left: 20px;
+        width: 600px;
+    }
+    #bannertxt h1 {
+        font-size: 43px;
+    }
+    #banner{
+        padding-bottom: 90px;
+    }
+    #bannerimg img{
+        padding-top: 75px;
+    }
+    #service-text h1{
+        font-size: 1.6rem;
+        padding-bottom: 10px;
+    }
+    #service-text p{
+        padding-bottom: 10px;
+    }
+    #service-img{
+        margin-top: 40px;
+    }
+    #counter-section h3{
+        font-size: 1.3rem;
+    }
+    .title-1{
+        font-size: 14px;
+        padding-bottom: 5px;        
+    }
+    .date-2{
+        font-size: 18px;
+    }
+    .p1{
+        font-size: 18px;
+    }
+    #submit{
+        padding: 15px 20px;
+    }
+    #searchbox{
+        max-width: 177px;
+    } 
+}
+
+
+@media only screen and (min-width:1001px) and (max-width: 1200px){
+    .form-inline{
+        display: flex;
+        flex-flow: nowrap;
+    }   
+    #bannertxt h1 {
+        font-size: 55px;
+    }
+    #banner{
+        padding-bottom: 80px;
+    }
+    #bannerimg img{
+        padding-top: 65px;
+    }
+    #service-text h1{
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    #service-text p{
+        padding-bottom: 20px;
+    }
+    #service-img{
+        margin-top: 40px;
+    }
+    .title-1{
+        font-size: 20px;
+        padding-bottom: 5px;        
+    }
+    #searchbox{
+        max-width: 170px;
+    }
+    .p1{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:1201px){
+    .form-inline{
+        display: flex;
+        flex-flow: nowrap;
+    }
+    #bannerimg img{
+        padding-top: 50px;
+    }
+    #service-text h1{
+        padding-bottom: 10px;
+    }
+    #service-text p{
+        padding-bottom: 10px;
+    }
+    #service-img{
+        margin-top: 25px;
+    }
+}
